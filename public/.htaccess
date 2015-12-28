@@ -1,4 +1,8 @@
 <IfModule mod_rewrite.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "POST, GET, PUT, OPTIONS, PATCH, DELETE"
+    Header set Access-Control-Allow-Headers "Authorization, X-Accept-Charset, X-Accept, Content-Type, Accept"
+
     <IfModule mod_negotiation.c>
         Options -MultiViews
     </IfModule>
