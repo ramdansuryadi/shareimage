@@ -1,0 +1,6 @@
+{{$data['email_comment']}}
+
+
+
+
+            
